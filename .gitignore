@@ -2,6 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea/
+*.iml
 
 ### Eclipse ###
 .apt_generated
@@ -28,11 +30,19 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-### Local test and debug files ###
-*Test.java
+### Course-provided tests (kept private) ###
+BitTest.java
+Word16Test.java
+Word32Test.java
+AdderTest.java
+MultiplierTest.java
+ShifterTest.java
+ALUTest.java
+MemoryTest.java
+AssemblerTest.java
+ProcessorTest.java
+
+### Local debug files ###
+ManualTest.java
 TestConverterDebug.java
 DebugAdder.java
-
-### IntelliJ project files ###
-.idea/
-*.iml
